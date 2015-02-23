@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="365.0" prefWidth="457.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="threecardsgame.FXMLDocumentController">
+    <children>
+        <Button fx:id="bottoneN" layoutX="371.0" layoutY="35.0" onAction="#sfida" text="trova l'1" />
+      <Button fx:id="bottone1" disable="true" layoutX="57.0" layoutY="93.0" mnemonicParsing="false" onAction="#carta1" prefHeight="77.0" prefWidth="69.0" text="1" />
+      <Button fx:id="bottone2" disable="true" layoutX="194.0" layoutY="93.0" mnemonicParsing="false" onAction="#carta2" prefHeight="77.0" prefWidth="69.0" text="2" />
+      <Button fx:id="bottone3" disable="true" layoutX="324.0" layoutY="93.0" mnemonicParsing="false" onAction="#carta3" prefHeight="77.0" prefWidth="69.0" text="3" />
+      <Label layoutX="93.0" layoutY="35.0" prefHeight="25.0" prefWidth="218.0" text="VEDIAMO SE RIESCI A TROVARE L'1..." />
+      <Label layoutX="126.0" layoutY="206.0" text="esatte:" />
+      <Label layoutX="128.0" layoutY="248.0" text="sbagliate:" />
+      <Label layoutX="126.0" layoutY="294.0" text="percentuale successo:" />
+      <Label fx:id="labelEsatte" layoutX="167.0" layoutY="206.0" prefHeight="17.0" prefWidth="69.0" />
+      <Label fx:id="labelSbagliate" layoutX="184.0" layoutY="248.0" prefHeight="17.0" prefWidth="69.0" />
+      <Label fx:id="labelPercentuale" layoutX="245.0" layoutY="294.0" prefHeight="17.0" prefWidth="69.0" />
+    </children>
+</AnchorPane>
